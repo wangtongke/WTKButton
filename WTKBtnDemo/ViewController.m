@@ -25,7 +25,7 @@
     [self.view addSubview:btn];
 }
 
-#warning 如果继承和类别都实现了，则会走类别的方法
+#warning 如果继承和类别都实现了，则会走类别的方法. 调试继承方法时，把类别中的load方法注释了。
 
 - (void)btn2Click{
     NSLog(@"自定义按钮点击了");
